@@ -1,0 +1,14 @@
+<users>
+    <user>
+		<fname>prénom</fname>
+		<lname>nom</lname>
+		<food>ce qu'il a mangé</food>
+		<end>Fini ou pas fini de manger ?</end>
+	</user>
+	<user>
+		<fname></fname>
+		<lname></lname>
+		<food></food>
+		<end></end>
+	</user>
+</users>
