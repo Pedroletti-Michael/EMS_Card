@@ -19,7 +19,13 @@
   .container {
 	display: flex;
 
-	widows: 100%;
+	width: 100%;
+  }
+
+  .inline {
+    display: inline-block;
+
+    width: 100%;
   }
 
   .w-50 {
@@ -47,16 +53,16 @@
   }
 
   .align-left {
-	text-align: left;
+	text-align: left !important; 
   }
 
   .align-right {
-	text-align: right;
+	text-align: right !important;
   }
 
   .align-center {
-	text-align: center;
-	align-content: flex-end;
+	text-align: center !important;
+	align-content: center;	
   }
 
   .border-left {
@@ -69,6 +75,11 @@
 	padding-right: 1.5em;
 
 	border-right: 1px solid black;
+  }
+  
+  .border-top {
+	padding-top: 1em;
+	border-top: 2px solid black;  
   }
 
   .border-box {
@@ -83,6 +94,10 @@
 
   .pr-2 {
 	padding-right: 2em;
+  }
+  
+  .pl-1 {
+	  padding-left: 1em;
   }
 
   .pt-2 {
